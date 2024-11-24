@@ -12,11 +12,28 @@ ul {
     list-style-type: none;
 }
 
+button {
+    cursor: pointer;
+}
+
+a:hover,
+a:focus {
+    color: #404bbf;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: #404bbf;
+}
+
 .logo-header {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.166;
     color: #2e2f42;
 }
 
@@ -28,14 +45,13 @@ ul {
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .link-adress {
     color: currentColor;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .hero {
@@ -44,78 +60,71 @@ ul {
 }
 
 .hero-header {
-    font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.071;
 }
 
 .hero-button {
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #ffffff;
 }
 
 .advantages {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .advantages-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     color: #2e2f42;
 }
 
 .team {
     background-color: #f4f4fd;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .team-title {
     color: #2e2f42;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.111;
 }
 
 .team-card-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     color: #2e2f42;
 }
 
 .portfolio {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .portfolio-title {
-    font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.111;
     color: #2e2f42;
 }
 
 .portfolio-card-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     color: #2e2f42;
 }
 
 .footer {
     background-color: #2e2f42;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #f4f4fd;
 }
 
@@ -124,5 +133,5 @@ ul {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.166;
 }
