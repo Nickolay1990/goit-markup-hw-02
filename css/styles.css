@@ -21,11 +21,17 @@ a:focus {
     color: #404bbf;
 }
 
+a:hover span,
+a:focus span {
+    color: #404bbf;
+}
+
 a:active {
     text-decoration: underline;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background-color: #404bbf;
 }
 
@@ -33,12 +39,14 @@ button:hover {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
-    color: #2e2f42;
+    line-height: 1.17;
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .inception-logo {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .nav-link {
@@ -46,12 +54,18 @@ button:hover {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .link-adress {
     color: currentColor;
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 .hero {
@@ -61,7 +75,9 @@ button:hover {
 
 .hero-header {
     font-size: 56px;
-    line-height: 1.071;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button {
@@ -70,11 +86,11 @@ button:hover {
     font-size: 16px;
     line-height: 1.5;
     color: #ffffff;
+    letter-spacing: 0.04em;
 }
 
 .advantages {
-    font-size: 16px;
-    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .advantages-title {
@@ -84,16 +100,26 @@ button:hover {
     color: #2e2f42;
 }
 
-.team {
-    background-color: #f4f4fd;
+.advantages-text {
     font-size: 16px;
     line-height: 1.5;
+}
+
+.team {
+    background-color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
 
 .team-title {
     color: #2e2f42;
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team-card {
+    background-color: #ffffff;
 }
 
 .team-card-title {
@@ -103,15 +129,21 @@ button:hover {
     color: #2e2f42;
 }
 
-.portfolio {
+.team-card-text {
     font-size: 16px;
     line-height: 1.5;
 }
 
+.portfolio {
+    letter-spacing: 0.02em;
+}
+
 .portfolio-title {
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
     color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .portfolio-card-title {
@@ -121,17 +153,32 @@ button:hover {
     color: #2e2f42;
 }
 
-.footer {
-    background-color: #2e2f42;
+.portfolio-card-text {
     font-size: 16px;
     line-height: 1.5;
-    color: #f4f4fd;
+}
+
+.footer {
+    background-color: #2e2f42;
 }
 
 .logo-footer {
-    color: #f4f4fd;
+    color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-end {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
 }
